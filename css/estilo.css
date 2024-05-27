@@ -1,0 +1,131 @@
+body{
+    background-image:url("../img/AMAZONAS\ FC\ \(3\).png");
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+header{
+    background-color: rgb(251, 187,0);     
+}
+
+li{
+    color: rgb(0, 0, 0);
+}
+
+main{
+    margin-top: 7%;
+    background-color:  rgb(251, 187,0);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding: 1%;   
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+}
+
+.imglogo{
+    width: 8%;
+}
+
+footer{
+    background-color: white;       
+}
+
+.titulos{
+    font-family: "Libre Baskerville", serif;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+p,li,table{
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.4em;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 1.4em;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+ul li{
+    line-height: 1.5;
+    font-size: 1.4em;
+}
+
+h1{
+    font-size: 2.2em;
+}
+
+h2{
+    font-size: 1.7em;
+}
+
+table{
+    width: 70%;
+    padding: 0; 
+    color: rgb(251, 187,0)  ;
+    padding-top: center;
+    padding-bottom: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,th{
+    border: 0px dashed black;
+    padding: 1.5%;
+    
+}
+th{
+    background-color: rgb(251, 187,0);
+    color: black;
+}
+
+
+tr:nth-child(even) {
+    background-color: black ;
+}
+
+ .imggaleria{
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+} 
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-3{
+    width: 33%;
+    text-align: center;
+}
+
+.loudwin{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.link{
+    color: gainsboro;
+}
+
+a.link:hover{
+    color: antiquewhite;
+}
+
+.titu{
+    font-family: "Libre Baskerville", serif;
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1.5%;
+}
