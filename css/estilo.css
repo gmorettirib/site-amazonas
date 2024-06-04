@@ -33,21 +33,27 @@ footer{
 }
 
 .titulos{
-    font-family: "Libre Baskerville", serif;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
     line-height: 3;
     text-align: center;
     font-weight: bold;
 }
 
 p,li,table{
-    font-family: "Libre Baskerville", serif;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.4em;
 }
 
 p{
     line-height: 1.5;
     font-size: 1.4em;
-    padding-top: 0.5%;
+    padding-top: 1%;
     padding-bottom: 0.5%;
 }
 
@@ -73,6 +79,7 @@ table{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
 }
 
 td,th{
@@ -123,9 +130,62 @@ a.link:hover{
 }
 
 .titu{
-    font-family: "Libre Baskerville", serif;
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
     line-height: 3;
     text-align: center;
     font-weight: bold;
     margin-top: 1.5%;
+}
+.titulos1{
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* 3 cards por linha, os 20px é o espaço de margem entre eles */
+    margin-bottom: 20px;
+    background-color: rgba(255, 207, 62, 0.795);
+    padding: 20px;
+    box-sizing: border-box;
+}
+.titulos{
+    font-size: 25px;
+    color: black;
+    
+}
+.col-6{
+    width: 50%;
+}
+
+.centro{
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .card {
+        width: calc(50% - 20px); /* 2 cards por linha em telas médias */
+    }
+    .col-6{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .card {
+        width: calc(100% - 20px); /* 1 card por linha em telas pequenas (celulares) */
+    }
+   
 }
