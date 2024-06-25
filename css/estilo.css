@@ -3,7 +3,10 @@ body{
     background-size: 100%;
     background-repeat: repeat;
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 header{
     background-color: rgb(251, 187,0);     
     position: relative;
@@ -122,12 +125,6 @@ tr:nth-child(even) {
     position: relative;
 }
 
-.loudwin{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: auto;
-    position: relative;
-}
 
 .link{
     color: gainsboro;
