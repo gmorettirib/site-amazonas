@@ -6,6 +6,10 @@ body{
 
 header{
     background-color: rgb(251, 187,0);     
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 li{
@@ -160,6 +164,7 @@ a.link:hover{
     background-color: rgba(255, 207, 62, 0.795);
     padding: 20px;
     box-sizing: border-box;
+    border-radius: 10%;
 }
 .titulos{
     font-size: 25px;
